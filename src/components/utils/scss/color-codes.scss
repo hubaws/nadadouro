@@ -1,0 +1,36 @@
+@mixin colorWhite {
+    color: $white;
+}
+
+// GREY / BLACK
+.dark-bg {
+    background-color: $dark-bg;
+    @include colorWhite;
+}
+.dark-clear {
+    background-color: $dark-clear-bg;
+}
+.dark-light {
+    background-color: $dark-light-bg;
+    color: $dark-bg;
+}
+
+// INDIGO
+.indigo-light {
+    background-color: $indigo-light;
+    @include colorWhite;
+}
+.indigo-neutral {
+    background-color: $indigo-neutral;
+    @include colorWhite;
+}
+.indigo-dark {
+    background-color: $indigo-dark;
+    @include colorWhite;
+}
+// BLUE
+.blue-light {
+    background-color: $blue-light;
+    @include colorWhite;
+}
+

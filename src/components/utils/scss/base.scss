@@ -1,0 +1,25 @@
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/layout/section.sass";
+
+@import "./variables.scss";
+@import "./spacing.scss";
+@import "./action.scss";
+@import "./color-codes.scss";
+@import "./flex.scss";
+@import "./form.scss";
+@import "./text.scss";
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@mixin rounded {
+    border-radius: 15px;
+}
+
+.rounded {
+    @include rounded;
+}

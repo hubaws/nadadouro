@@ -1,0 +1,13 @@
+@mixin bold {
+    font-weight: bold;
+}
+@mixin upperText {
+    text-transform: uppercase;
+}
+
+.text-b {
+    @include bold;
+}
+.text-up {
+    @include upperText;
+}

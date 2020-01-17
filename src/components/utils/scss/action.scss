@@ -1,0 +1,34 @@
+button {
+    &.primary {
+        background-color: $primaryBtn;
+        color: $white;
+        &:hover {
+            background-color: $primaryHoverBtn;
+            color: $white;
+        }
+    }
+    &.bt-border {
+        border: 0;
+        border-bottom: 1px solid $dark-light-bg;
+    }
+    &.rounded-btn {
+        border-radius: 20px;
+    }
+}
+
+a {
+    color: $dark-bg;
+    transition: all .3s ease-in-out;
+    &:not(.no-hover){
+        &:hover{
+            color: $dark-clear-bg;
+        }
+    }
+    &.rounded {
+        border-radius: 5px;
+    }
+    &.primary {
+        background-color: $primaryBtn;
+        color: $white;
+    }
+}

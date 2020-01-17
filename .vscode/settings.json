@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "SFDC",
+        "Schouten",
+        "bulma",
+        "localstorage",
+        "nadadouro",
+        "polyfill"
+    ],
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "env/bin/python3.7"
+}

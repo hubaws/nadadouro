@@ -1,0 +1,31 @@
+@mixin flrow {
+    flex-direction: row;
+}
+@mixin flcolumn {
+    flex-direction: column;
+}
+
+@mixin dflex-row {
+    display: flex;
+    @include flrow;
+}
+@mixin dflex-column {
+    display: flex;
+    @include flcolumn;
+}
+
+
+.d-flex {
+    @include dflex-row;
+    &.js-between {
+        justify-content: space-between;
+    }
+
+    &.fl-column {
+        flex-direction: column;
+    }
+
+    &.align-center {
+        align-items: center;
+    }
+}
