@@ -16,7 +16,7 @@
     "bulma": "^0.8.0",
     "mobx": "^5.15.1",
     "mobx-react": "^6.1.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
